@@ -3,17 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
 //import Hello from './Hello';
-import Counter from './Counter';
+//import Counter from './Counter';
+//import bmi2 from './bmi_diy'
+import Backpack from './Backpack';
+import Bmi from './Bmi'
 import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
 
- <Counter/>
   
+  <React.StrictMode>
+ <Bmi/>
+   {/*<Counter/>
+ <Backpack/> 
+ <Counter/> */}
     {/*<App /> */}
+    
   </React.StrictMode>
 );
 
